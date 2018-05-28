@@ -33,4 +33,8 @@ Route::get('/about1', function () {
     return 'About1 page';
 });
 
+Route::get('/github', function () {
+    return 'github page';
+});
+
 
