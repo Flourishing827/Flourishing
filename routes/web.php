@@ -29,4 +29,8 @@ Route::resource('pay','PayController');
 
 Route::resource('user','UseoController');
 
+Route::get('/about1', function () {
+    return 'About1 page';
+});
+
 
