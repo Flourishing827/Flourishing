@@ -37,4 +37,8 @@ Route::get('/github', function () {
     return 'github page';
 });
 
+Route::get('/new', function () {
+    return 'new page';
+});
+
 
